@@ -36,24 +36,24 @@ h1 {
   font-size:36px;
 }
 
-.about-us h1 {
+.about-me h1 {
   margin-top:0;
 }
 
-.about-us .content{
+.about-me .content{
   width:300px;
 }
 
-.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+.about-me hr,.portfolio .portfolio-margin hr, .contact hr {
   width:106px;
 }
 
-.about-us .column-one, .about-us .column-two{
+.about-me .column-one, .about-me .column-two{
   width:300px;
   margin-bottom:20px;
 }
 
- .about-us .content .column-three{
+ .about-me .content .column-three{
   width:300px;
   margin-bottom:70px;
  }
@@ -159,24 +159,24 @@ h1 {
   font-size:36px;
 }
 
-.about-us h1 {
+.about-me h1 {
   margin-top:0;
 }
 
-.about-us .content{
+.about-me .content{
   width:300px;
 }
 
-.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+.about-me hr,.portfolio .portfolio-margin hr, .contact hr {
   width:106px;
 }
 
-.about-us .column-one, .about-us .column-two{
+.about-me .column-one, .about-me .column-two{
   width:300px;
   margin-bottom:20px;
 }
 
- .about-us .column-three{
+ .about-me .column-three{
   width:300px;
   margin-bottom:70px;
  }
@@ -264,27 +264,27 @@ textarea{
   width:700px;
 }
 
-.about-us .content{
+.about-me .content{
   width:700px;
 }
 
-.about-us p{
+.about-me p{
   width:200px;
 }
 
-.about-us h2{
+.about-me h2{
   letter-spacing:2px;
 }
 
-.about-us .column-one{
+.about-me .column-one{
   width:233px;
 }
 
-.about-us .column-two{
+.about-me .column-two{
   width:233px;
 }
 
-.about-us .column-three{
+.about-me .column-three{
   width:233px;
 }
 

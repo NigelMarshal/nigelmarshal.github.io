@@ -326,21 +326,21 @@ h1 span{
 
 /* About us */
 
-.about-us{
+.about-me{
   position:relative;
   width:100%;
   background:white;
   z-index:10;
 }
 
-.about-us .content{
+.about-me .content{
   position:relative;
   width:900px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.about-us h1{
+.about-me h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -352,7 +352,7 @@ h1 span{
 
 }
 
-.about-us hr{
+.about-me hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -362,7 +362,7 @@ h1 span{
 
 }
 
-.about-us p.title{
+.about-me p.title{
   color: #a4a4a4;
   margin:40px auto;
   width:300px;
@@ -373,7 +373,7 @@ h1 span{
   text-align:center;
 }
 
-.about-us h2{
+.about-me h2{
   text-align:center;
   margin-top:50px;
   font-size:26px;
@@ -385,7 +385,7 @@ h1 span{
   font-weight:400;
 }
 
-.about-us p{
+.about-me p{
   text-align:center;
   font-size:14px;
   width:250px;
@@ -397,7 +397,7 @@ h1 span{
   font-weight:300;
 }
 
-.about-us .column-one{
+.about-me .column-one{
   margin-top:40px;
   width:300px;
   float:left;
@@ -405,7 +405,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-one .circle-one{
+.about-me .column-one .circle-one{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -423,12 +423,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-one .circle-one:hover{
+.about-me .column-one .circle-one:hover{
   border:2px solid #ada074;
 
 }
 
-.about-us .column-two{
+.about-me .column-two{
   margin-top:40px;
   width:300px;
   float:left;
@@ -436,7 +436,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-two .circle-two{
+.about-me .column-two .circle-two{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -454,12 +454,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-two .circle-two:hover{
+.about-me .column-two .circle-two:hover{
   border:2px solid #ada074;
 }
 
 
-.about-us .column-three{ 
+.about-me .column-three{
   margin-top:40px;
   width:300px;
   float:left;
@@ -467,7 +467,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-three .circle-three{ 
+.about-me .column-three .circle-three{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -485,7 +485,7 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-three .circle-three:hover{ 
+.about-me .column-three .circle-three:hover{
   border:2px solid #ada074;
 }
 
@@ -644,19 +644,6 @@ h1 span{
     clear:both; 
 }
 
-/* Partners */
-
-.partners{
-  position:relative;
-  width:100%;
-  z-index:10;
-  height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 /* Contact */
 
