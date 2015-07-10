@@ -6,9 +6,10 @@
 
       <link rel="shortcut icon" href="img/favicon.png">
       <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+      <!--<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" />-->
       <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+      <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css" />
       <link rel="stylesheet" type="text/css" href="stylesheets/style-responsive.css" />
-
   </head>
   <body>
 
@@ -33,9 +34,14 @@
                     <div class="logo"><img src="img/logo.png"></div>
 
                     <h1>Nigel Marshal</h1><hr/>
-                    <p>Code Ninja and frequent consumer of pizza </p>
+                    <p> I'm a developer who values creating products users can interact with simply and elegantly.
+                        I'm a recent Computer Systems (with a distinction) graduate from Heriot-Watt University. I have experience in creating mobile games using Unity, making use of APIs to provide useful information to end users,using MVC frameworks such as Laravel and CSS frameworks like Bootstrap. My strengths lie within in front end development and a strong grip on mobile applications. I am a current Microsoft Student Partner and have published numerous apps on the Windows Store and mobile store.
+                        My endgoal is to develop things for users that feels familiar and natural to interact with in order to provide complete immersion into the product, no matter the nature of the product/project.
+                    </p>
 
-                    <a href="#about-me"><div class="read-more">Read more</div></a>
+
+
+                    <a href="#portfolio"><div class="read-more">My work</div></a>
 
                 </div>
                 <div class="arrow-down"></div>
@@ -59,7 +65,6 @@
 
         <ul class="menu-click">
             <a href="#home"><li href="#home">HOME</li></a>
-            <a href="#about-me"><li href="#about-me">ABOUT ME</li></a>
             <a href="#portfolio"><li href="#portfolio">PORTFOLIO</li></a>
             <a href="#contact"><li href="#contact">CONTACT</li></a>
 
@@ -76,7 +81,6 @@
 
                 <ul id="menu">
                     <li><a href="#home">HOME</a></li>
-                    <li><a href="#about-me">ABOUT ME</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
@@ -86,50 +90,6 @@
         </section>
 
 
-        <!-- section about us -->
-
-        <section class="about-me" id="about-me">
-
-            <div class="content">
-
-                <h1>ABOUT ME</h1>
-                <hr/>
-                <p class="title">I'm an enthusiastic developer who cares deeply about the user interaction with the products I create and I possess an intense passion for technology.
-                    I'm a fresh computer science graduate with strengths in front end development and a strong grip on back end development. I am a current Microsoft Student Partner and have published numerous apps on the Windows Store and mobile store.
-                    I also have experience with creating mobile games on Unity, connecting to APIs such as the Yahoo stock market and using frameworks such as Laravel and Bootstrap.
-                    I value making things for users to derive joy from in their interaction and enhance their immersion when using technology, whether it is for leisure or educational purposes.</p>
-
-                <div class="column-one">
-
-                    <div class="circle-one"></div>
-
-                    <h2>RESPONSIVE</h2>
-                    <p>Lorem si di amigooo</p>
-
-                </div>
-
-                <div class="column-two">
-
-                    <div class="circle-two"></div>
-
-                    <h2>MINIMALIST</h2>
-                    <p>But maximum swag</p>
-
-                </div>
-
-
-                <div class="column-three">
-
-                    <div class="circle-three"></div>
-
-                    <h2>FREEBIES</h2>
-                    <p>always fantastic</p>
-
-                </div>
-
-            </div>
-
-        </section>
 
         <div class="clear"></div>
 
@@ -217,80 +177,73 @@
         <!-- Contact-->
 
         <section class="contact" id="contact">
-            <h1>Contact</h1>
-            <hr/>
 
+            <!--<h1>Contact</h1>-->
+            <hr/>
             <div class="content">
 
-                <div class="form">
 
-                    <form method="post" action="mail.php" name="kontakt">
+            <div id="social">
+            <div class="container">
+            <div class="row centered">
 
-                        <div class="column">
-                            YOUR NAME<br/><br/>
-                            <input name="name" id="name" value="" />
-                        </div>
-
-                        <div class="column-2">
-                            YOUR E-MAIL<br/><br/>
-                            <input name="email" id="email" value="" />
-                        </div>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
 
 
-                        <div class="column-3">
-                            MESSAGE<br/><br/>
-                            <textarea id="message" name="message" ></textarea>
-                        </div>
-
-                        <div class="button">
-                            <span><input class="submit" id="submit" name="submit" type="submit" value="SEND"></span>
-                        </div>
-
-                    </form>
-
-                </div>
+            <a href="#"><i class="fa fa-facebook"></i></a>
 
 
-                <div class="contact-text">
-
-                    To contact us please use the contact form visible<br/><br/>
-
-                    When sending files, please use<br/>
-                    the following e-mail<br/><br/>
-
-                    <strong>Nigel Marshal</strong><br/><br/>
-
-                    e-mail: <strong>.com</strong>
-
-                </div>
+            <a href="#"><i class="fa fa-twitter"></i></a>
 
 
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+
+            <a href="#"><i class="fa fa-instagram"></i></a>
+
+
+            <a href="#"><i class="fa fa-tumblr"></i></a>
+
+
+            </div><! --/row -->
+            </div><! --/container -->
+            </div><! --/social -->
             </div>
-
         </section>
 
 
         <section class="footer">
-
-            <div class="logo"><img src="img/logo-footer.png"></div>
-            <div class="menu-footer">
-
-                <a href="#home">Home</a>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Contact</a>
-
-            </div>
-
+            <div class="logo"><a href="#home"><img src="img/logo-footer.png"></a></div>
             <div class="copyright">Nigel Marshal © 2015</div>
-
-
         </section>
 
 
     </div>
 
+    <!--<div id="social">-->
+    <!--<div class="container">-->
+        <!--<div class="row centered">-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-dribbble"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-2">-->
+                <!--<a href="#"><i class="fa fa-tumblr"></i></a>-->
+            <!--</div>-->
 
+        <!--</div><! --/row &ndash;&gt;-->
+    <!--</div><! --/container &ndash;&gt;-->
+    <!--</div><! --/social &ndash;&gt;-->
 
     <!-- Scripts -->
 
