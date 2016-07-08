@@ -134,6 +134,17 @@ a:after {
     padding: 0;
 }
 
+.cvdownload{
+  color:white; 
+}
+
+.cvdownload:hover{
+  color: white;
+    text-decoration: underline;
+    outline: 0;
+
+}
+
 
 /*---------------------------------------------------
 	3.1 Topbar
