@@ -1,7 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-/* @import url(https://fonts.googleapis.com/css?family=Oswald);
- @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);*/
 body {
   background-color: #f2f2f2;
     font-family: 'Work Sans', sans-serif;
@@ -13,6 +11,11 @@ h2, h4, h5, h6 {
    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #333;
+}
+h5{
+  text-align: center;
+  padding-bottom:20px;
+  text-transform: uppercase;
 }
 p {
     line-height: 28px;
@@ -44,14 +47,22 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-.cvdownload{
+.download--resume_CTA a{
   color:white; 
 }
-.cvdownload:hover{
-  color: white;
+.download--resume_CTA a:focus, .download--resume_CTA a:hover{
+      color: white;
     text-decoration: underline;
     outline: 0;
-
+    }
+.portfolio--image__thumbnails{
+  display:inline-block;
+}
+.portfolio--location__title{
+  display:inline;
+}
+.portfolio--date__text{
+  
 }
 .sticky-header {
 	position: fixed;
@@ -60,7 +71,7 @@ hr {
 	right: 0;
 	z-index: 10000;
 	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 .sticky-header a {
   color: #fff;
@@ -201,7 +212,7 @@ font-family: 'Work Sans', sans-serif;
    background-position: center center;
    z-index: 1;
 }
-.demo .large-header {
+.intro-banner .large-header {
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
 .main-title {
@@ -215,7 +226,7 @@ font-family: 'Work Sans', sans-serif;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
-.demo .main-title {
+.intro-banner .main-title {
    text-transform: uppercase;
    font-size: 4.2em;
    letter-spacing: 0.1em;
@@ -224,7 +235,7 @@ font-family: 'Work Sans', sans-serif;
    font-weight: 200;
 }
 @media only screen and (max-width: 768px) {
-   .demo .main-title {
+   .intro-banner .main-title {
       font-size: 3em;
    }
 }
