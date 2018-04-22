@@ -1,44 +1,51 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 body {
-  background-color: #f2f2f2;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
 }
+
 h2, h4, h5, h6 {
    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #333;
 }
-h5{
+
+h3{
   text-align: center;
   padding-bottom:20px;
   text-transform: uppercase;
 }
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
 }
+
 /*Helper Class*/
+
 .centered {
     text-align: center;
 }
+
 a {
     color: #f85c37;
     word-wrap: break-word;
 }
+
 a:hover,
 a:focus {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
+
 a:before,
 a:after {
 
 }
+
 hr {
     display: block;
     height: 1px;
@@ -47,23 +54,33 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 .download--resume_CTA a{
-  color:white; 
+  color:white;
 }
+
 .download--resume_CTA a:focus, .download--resume_CTA a:hover{
-      color: white;
-    text-decoration: underline;
+      color: #aec6ff;
+    text-decoration: none;
     outline: 0;
     }
+
 .portfolio--image__thumbnails{
   display:inline-block;
 }
+
 .portfolio--location__title{
   display:inline;
 }
+
 .portfolio--date__text{
-  
+
 }
+
+.experience--list__items{
+padding:25px 0 25px 0;
+}
+
 .sticky-header {
 	position: fixed;
 	top: 0;
@@ -73,14 +90,17 @@ hr {
 	overflow: visible;
 
 }
+
 .sticky-header a {
   color: #fff;
 }
+
 .topbar-inner {
 	background: #52596C;
 	line-height: 0;
 	text-align: center;
 }
+
 .sticky-header ul#nav {
 	display: inline-block;
 	position: relative;
@@ -93,11 +113,13 @@ hr {
 	zoom:1;
 	*display: inline;
 }
+
 .sticky-header ul#nav > li {
 	display: block;
     float: left;
     padding: 0;
 }
+
 .sticky-header ul#nav a {
   display: block;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -106,103 +128,102 @@ hr {
   transition: all 0.8s ease;
 
 }
+
 .sticky-header ul#nav a:hover {
 	  background: #fff;
 	  color: #52596C;
 	  text-decoration: none;
 
 	}
+
 .sticky-header ul#nav .active a {
 		background: #fff;
 
 	}
+
 .sticky-header ul#nav .active a:hover {
 			background: #fff;
 		}
+
 .sticky-header i {
 	font-size: 25px;
 }
+
 /* Intro Wrap */
-#about {
+
+.about--description_section {
 	background: #52596C;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
-#about h5, p {
-	color: white;
-}
-#about i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
-}
+
 #skillswrap {
 	background: #2c3e50;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
-#skillswrap h5, p {
-	color: white;
+
+#skillswrap p {
+	color: black;
 }
+
 .footer {
 	background: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-.footer p {
+
+.footer h3{
 	color: white;
 }
-.footer h5 {
-	color: white;
-}
+
 .footer i {
-	padding-right: 8px;
-	color: #1abc9c;
+       margin: 30px;
+    color: #1abc9c;
+    font-size: 40px;
+    text-align: center;
 }
+
 /* Copyright Wrap */
+
 .copyright-wrapper {
 	background: #222222;
 	padding-top: 15px;
 	text-align: center;
 }
+
 .copyright-wrapper p {
-	color: white
+	color: white;
+  margin:0;
 }
+
 /* Global Values */
-.desc {
+
+.experience-description {
 	padding-top: 5px;
 }
-.desc p {
-	color: #2f2f2f;
+
+.emphasised--text__label{
+font-weight: 900;
+    font-size: 18px;
+    color: #153490;
+    text-transform: uppercase;
+        border-bottom: solid 1px;
+    width: 42px;
 }
-.desc t {
-	color: #34495e;
-	font-weight: 700;
-}
-.desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
-}
-.desc more {
-	color: #000;
-font-family: 'Work Sans', sans-serif;
-  color: #535662;
-  font-size: 1.04em;
-  font-weight: 500;
-  text-align: left;
-}
+
 .copyright-section {
   color:gray;
   text-decoration: none;
 }
+
 .copyright-section:hover{
   color:#52596C;
   transition:all 0.5s ease-in;
 }
+
 .large-header {
    position: relative;
    width: 100%;
@@ -212,9 +233,11 @@ font-family: 'Work Sans', sans-serif;
    background-position: center center;
    z-index: 1;
 }
+
 .intro-banner .large-header {
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
+
 .main-title {
    position: absolute;
    margin: 0;
@@ -226,14 +249,18 @@ font-family: 'Work Sans', sans-serif;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
+
+.main-title .thin{
+    font-weight:200;
+    font-size:20px;
+   }
+
 .intro-banner .main-title {
    text-transform: uppercase;
    font-size: 4.2em;
    letter-spacing: 0.1em;
 }
-.main-title .thin {
-   font-weight: 200;
-}
+
 @media only screen and (max-width: 768px) {
    .intro-banner .main-title {
       font-size: 3em;

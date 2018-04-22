@@ -1,7 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 body {
-  background-color: #f2f2f2;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -14,7 +12,7 @@ h2, h4, h5, h6 {
     color: #333;
 }
 
-h5{
+h3{
   text-align: center;
   padding-bottom:20px;
   text-transform: uppercase;
@@ -59,12 +57,12 @@ a:after {
 .download--resume_CTA{
 
   a{
-  color:white; 
+  color:white;
 }
 
   a:focus, a:hover{
-      color: white;
-    text-decoration: underline;
+      color: #aec6ff;
+    text-decoration: none;
     outline: 0;
     }
 }
@@ -78,9 +76,12 @@ a:after {
 }
 
 .portfolio--date__text{
-  
+
 }
 
+.experience--list__items{
+padding:25px 0 25px 0;
+}
 .sticky-header {
 	position: fixed;
 	top: 0;
@@ -152,23 +153,14 @@ a:after {
 
 /* Intro Wrap */
 
-#about {
+.about--description_section {
 	background: #52596C;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 } 
 
-#about h5, p {
-	color: white;
-}
 
-#about i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
-}
 
 
 #skillswrap {
@@ -178,8 +170,8 @@ a:after {
 	color: white;
 }
 
-#skillswrap h5, p {
-	color: white;
+#skillswrap p {
+	color: black;
 }
 
 .footer {
@@ -188,18 +180,19 @@ a:after {
 	padding-bottom: 50px;
 }
 
-.footer p {
+.footer {
+  h3{
 	color: white;
+}
 }
 
-.footer h5 {
-	color: white;
-}
 
 
 .footer i {
-	padding-right: 8px;
-	color: #1abc9c;
+       margin: 30px;
+    color: #1abc9c;
+    font-size: 40px;
+    text-align: center;
 }
 
 /* Copyright Wrap */
@@ -211,41 +204,26 @@ a:after {
 }
 
 .copyright-wrapper p {
-	color: white
+	color: white;
+  margin:0;
 }
 
 
 /* Global Values */
 
-.desc {
+.experience-description {
 	padding-top: 5px;
 }
 
-.desc p {
-	color: #2f2f2f;
+
+.emphasised--text__label{
+font-weight: 900;
+    font-size: 18px;
+    color: #153490;
+    text-transform: uppercase;
+        border-bottom: solid 1px;
+    width: 42px;
 }
-
-.desc t {
-	color: #34495e;
-	font-weight: 700;
-}
-
-.desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
-}
-
-.desc more {
-	color: #000;
-font-family: 'Work Sans', sans-serif;
-  color: #535662;
-  font-size: 1.04em;
-  font-weight: 500;
-  text-align: left;
-}
-
-
 
 .copyright-section {
   color:gray;
@@ -281,6 +259,11 @@ font-family: 'Work Sans', sans-serif;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
+
+   .thin{
+    font-weight:200;
+    font-size:20px;
+   }
 }
 
 .intro-banner .main-title {
@@ -289,9 +272,6 @@ font-family: 'Work Sans', sans-serif;
    letter-spacing: 0.1em;
 }
 
-.main-title .thin {
-   font-weight: 200;
-}
 
 @media only screen and (max-width: 768px) {
    .intro-banner .main-title {
