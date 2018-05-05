@@ -272,6 +272,12 @@ font-weight: 900;
    letter-spacing: 0.1em;
 }
 
+.portfolio__title{
+  font-weight:700;
+  text-align:center;
+  color: #2f5572;
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 768px) {
    .intro-banner .main-title {
