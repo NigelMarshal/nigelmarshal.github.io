@@ -46,6 +46,16 @@ a:after {
 
 }
 
+.technologies-list{
+  color: black;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.demo-link{
+    
+}
+
 hr {
     display: block;
     height: 1px;
@@ -262,10 +272,11 @@ font-weight: 900;
 }
 
 .portfolio__title{
-  font-weight:700;
-  text-align:center;
-  color: #77253b;
-  text-decoration: underline;
+   font-weight: 700;
+    text-align: center;
+    color: #77253b;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
