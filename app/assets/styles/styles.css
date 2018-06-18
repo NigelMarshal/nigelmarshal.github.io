@@ -52,7 +52,7 @@ a:after {
 }
 
 .demo-link{
-    
+
 }
 
  hr {
@@ -168,7 +168,7 @@ padding:25px;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 
 
@@ -243,7 +243,7 @@ font-weight: 900;
 .copyright-section:hover{
   color:#52596C;
   transition:all 0.5s ease-in;
-} 
+}
 
 .large-header {
    position: relative;
@@ -288,6 +288,10 @@ font-weight: 900;
     color: #77253b;
     text-decoration: underline;
     text-transform: uppercase;
+}
+
+.video-responsive {
+  width:100%;
 }
 
 @media only screen and (max-width: 768px) {
