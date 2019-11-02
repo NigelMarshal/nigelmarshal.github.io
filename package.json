@@ -1,37 +1,45 @@
 {
-  "name": "nigelmarshal.github.io",
-  "version": "1.0.0",
-  "description": "Upgrading Portfolio",
-  "main": "gulpfile.js",
+  "title": "Nigel Marshal",
+  "name": "nigel-marshal-portfolio",
+  "version": "3.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp watch"
   },
+  "description": "Updated version of my work portfolio using Bootstap 4",
+  "keywords": [
+    "frontend",
+    "engineer",
+    "developer",
+    "hire-me-please"
+  ],
+  "homepage": "https://github.com/NigelMarshal/nigelmarshal.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/NigelMarshal/nigelmarshal.github.io/issues"
+  },
+  "license": "MIT",
+  "author": "Nigel Marshal",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NigelMarshal/nigelmarshal.github.io.git"
   },
-  "author": "Nigel Marshal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NigelMarshal/nigelmarshal.github.io/issues"
-  },
-  "homepage": "https://github.com/NigelMarshal/nigelmarshal.github.io#readme",
   "dependencies": {
-    "grunt": "^1.0.4",
-    "gulp": "^3.9.1",
-    "postcss": "^6.0.23"
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1"
   },
   "devDependencies": {
-    "autoprefixer": "^8.6.5",
-    "browser-sync": "^2.26.7",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.1",
-    "gulp-watch": "^5.0.1",
-    "ion-rangeslider": "^2.3.0",
-    "postcss-import": "^11.1.0",
-    "postcss-nested": "^3.0.0",
-    "postcss-simple-vars": "^4.1.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^2.1.5"
-  }
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  },
+  "main": "gulpfile.js"
 }
