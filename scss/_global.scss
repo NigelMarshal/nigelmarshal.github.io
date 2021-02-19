@@ -54,7 +54,7 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
+    background-color: $gray-600;
     color: $white !important;
     border-radius: 100%;
     text-align: center;
@@ -65,7 +65,7 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      background-color: $light-orange;
     }
   }
 }
@@ -76,5 +76,14 @@ p.lead {
     &:hover {
       color: $primary;
     }
+  }
+}
+
+.btn--portfolio-links{
+  background-color:$light-orange;
+  color: rgba( 255, 255, 255, 0.9 );
+  &:hover{
+    background-color: $primary;
+    color: rgba( 255, 255, 255, 1 );
   }
 }

@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Nigel Marshal v3.0.1 (https://github.com/NigelMarshal/nigelmarshal.github.io#readme)
- * Copyright 2018-2019 Nigel Marshal
+ * Copyright 2018-2021 Nigel Marshal
  * Licensed under MIT (https://github.com/nigel-marshal-portfolio/blob/master/LICENSE)
  */
 
@@ -58,7 +58,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #868e96;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #922900;
+  background-color: #a85433;
 }
 
 .dev-icons {
@@ -81,6 +81,16 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #922900;
+}
+
+.btn--portfolio-links {
+  background-color: #a85433;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn--portfolio-links:hover {
+  background-color: #922900;
+  color: white;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -133,13 +143,13 @@ p.lead {
   }
 }
 
-section.resume-section {
+section.resume-section, section.skills-section, section.projects-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
 
-section.resume-section .resume-item .resume-date {
+section.resume-section .resume-item .resume-date, section.skills-section .resume-item .resume-date, section.projects-section .resume-item .resume-date {
   min-width: none;
 }
 
