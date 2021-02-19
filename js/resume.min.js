@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Nigel Marshal v3.0.1 (https://github.com/NigelMarshal/nigelmarshal.github.io#readme)
- * Copyright 2018-2019 Nigel Marshal
+ * Copyright 2018-2021 Nigel Marshal
  * Licensed under MIT (https://github.com/nigel-marshal-portfolio/blob/master/LICENSE)
  */
 
