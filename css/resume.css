@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
   color: #868e96;
 }
@@ -16,14 +16,13 @@ body {
     padding-left: 17rem;
   }
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -50,7 +49,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
 
@@ -66,11 +65,9 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 }
-
 .social-icons a:last-child {
   margin-right: 0;
 }
-
 .social-icons a:hover {
   background-color: #a85433;
 }
@@ -78,7 +75,6 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
-
 .dev-icons .list-inline-item i:hover {
   color: #922900;
 }
@@ -87,7 +83,6 @@ p.lead {
   background-color: #a85433;
   color: rgba(255, 255, 255, 0.9);
 }
-
 .btn--portfolio-links:hover {
   background-color: #922900;
   color: white;
@@ -98,7 +93,6 @@ p.lead {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
-
 #sideNav .navbar-toggler:focus {
   outline-color: #df3e00;
 }
@@ -142,13 +136,11 @@ p.lead {
     display: block;
   }
 }
-
 section.resume-section, section.skills-section, section.projects-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
-
 section.resume-section .resume-item .resume-date, section.skills-section .resume-item .resume-date, section.projects-section .resume-item .resume-date {
   min-width: none;
 }
@@ -161,14 +153,12 @@ section.resume-section .resume-item .resume-date, section.skills-section .resume
     min-width: 18rem;
   }
 }
-
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
-
 .bg-primary {
   background-color: #922900 !important;
 }
@@ -180,7 +170,6 @@ section.resume-section .resume-item .resume-date, section.skills-section .resume
 a {
   color: #922900;
 }
-
 a:hover, a:focus, a:active {
   color: #461400;
 }
