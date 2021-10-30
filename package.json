@@ -25,11 +25,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.7",
     "del": "5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "7.0.0",
@@ -40,7 +40,7 @@
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "3.0.2",
     "merge-stream": "2.0.0",
-    "sass": "^1.42.1"
+    "sass": "^1.43.4"
   },
   "main": "gulpfile.js"
 }
