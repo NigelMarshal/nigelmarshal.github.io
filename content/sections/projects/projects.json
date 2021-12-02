@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "🕹️ EASY AND QUICK SETUP",
+      "title": "Add content and deploy!",
+      "description": "Starter Project",
+      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "image": {
+        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "alt": "Quick Setup"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/"
+        },
+        {
+          "type": "external",
+          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 EXTENDABLE LAYOUT",
+      "title": "Add more sections!",
+      "description": "Starter portfolio",
+      "tags": ["Custom Sections", "Easy-2-Use"],
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "Visit on Github",
+    "url": "https://github.com/"
+  }
+}

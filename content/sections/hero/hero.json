@@ -1,0 +1,18 @@
+{
+  "intro": "Hej",
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "Gatsby Portfolio",
+  "subtitle": {
+    "prefix": "I do all the setup ",
+    "highlight": "for you",
+    "suffix": "."
+  },
+  "description": "Gatsby Portfolio",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": false
+  }
+}
