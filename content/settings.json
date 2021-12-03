@@ -17,13 +17,13 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "NM" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Experience", "url": "/#features" },
+        { "label": "Contact", "url": "/#github" }
       ],
       "ctaButton": {
         "openNewTab": true,

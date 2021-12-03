@@ -1,13 +1,13 @@
 {
-  "name": "Gatsby Portfolio",
-  "email": "example@mail.com",
-  "description": "FE Portfolio",
+  "name": "Nigel Marshal",
+  "email": "nigelmarshal@gmail.com",
+  "description": "",
   "image": {
     "src": "../../images/favicon.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Github"],
     "showIcons": true
   }
 }
