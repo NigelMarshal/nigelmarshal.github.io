@@ -3,27 +3,6 @@
     {
       "visible": true,
       "category": "",
-      "title": "React Expense Tracker",
-      "description": "Powered by CRA, I created a React Expense Tracker where the user can log in their expenses, as well as filter by year and view their total expenses in a bar chart.",
-      "tags": ["React", "CRA"],
-      "image": {
-        "src": "../../images/expense-tracker.png",
-        "alt": "Expense Tracker"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/NigelMarshal/react-expense-tracker"
-        },
-        {
-          "type": "external",
-          "url": "https://nm-expense-tracker.netlify.app/"
-        }
-      ]
-    },
-    {
-      "visible": true,
-      "category": "",
       "title": "Jungle CommerceJS",
       "description": "Using Commerce.js and React, I created a mini webshop SPA where I could add products through the Commerce JS dashboard and used React Hook Forms for the customer data handling. This was built using Material UI, react-router and Stripe for the payment process.",
       "tags": [
@@ -46,6 +25,27 @@
         {
           "type": "external",
           "url": "https://junglecommercejs.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "React Expense Tracker",
+      "description": "Powered by CRA, I created a React Expense Tracker where the user can log in their expenses, as well as filter by year and view their total expenses in a bar chart.",
+      "tags": ["React", "CRA"],
+      "image": {
+        "src": "../../images/expense-tracker.png",
+        "alt": "Expense Tracker"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/react-expense-tracker"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-expense-tracker.netlify.app/"
         }
       ]
     },
