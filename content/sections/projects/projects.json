@@ -181,6 +181,27 @@
           "url": "https://nigelmarshal.github.io/iosalarm/app/index.html"
         }
       ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Travel Site Landing Page",
+      "description": "For this project I decided to go with a more classic approach and avoided using common JS frameworks. It is a fully response and optimized site created from scratch using Node.js, ES6 JS, webpack and gulp",
+      "tags": ["HTML5", "CSS3", "NodeJS", "webpack", "gulp"],
+      "image": {
+        "src": "../../images/travel-site.png",
+        "alt": "Travel Site"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/travel-site"
+        },
+        {
+          "type": "external",
+          "url": "https://www.nigelmarshal.com/travel-site/"
+        }
+      ]
     }
   ],
   "button": {

@@ -3,10 +3,10 @@ module.exports = {
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://localhost:9000/", // Used for sitemap generation
+        siteUrl: "https://www.nigelmarshal.com/", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/favicon.png", // Path is relative to the root
-          siteName: "My Minimal Portfolio", // Used in manifest.json
+          siteName: "Nigel Marshal Frontend Portfolio", // Used in manifest.json
           shortName: "NM", // Used in manifest.json
           startUrl: "/", // Used in manifest.json
           backgroundColor: "#FFFFFF", // Used in manifest.json
@@ -18,11 +18,11 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
-        // googleAnalytics: {
-        //     trackingId: "UA-XXXXXX-X",
-        //     anonymize: true, // Default true
-        //     environments: ["production", "development"] // Default ["production"]
-        // }
+        googleAnalytics: {
+          trackingId: "UA-151538447-1",
+          anonymize: true, // Default true
+          environments: ["production", "development"], // Default ["production"]
+        },
       },
     },
   ],

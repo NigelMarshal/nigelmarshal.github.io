@@ -1,5 +1,5 @@
 ---
-imageSrc: "../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg"
+imageSrc: "../../images/profile.jpg"
 imageAlt: "About Gatsby Theme Portfolio Minimal"
 ---
 
@@ -10,5 +10,3 @@ Over the course of my professional career I've tacked on numerous skills to my g
 After working as a hybrid front-end developer/project manager I moved on to work at **dubizzle** team for the **OLX group** based in Dubai. I worked as the sole front end support for the OLX MENA region whose subsites consisted of 8 countries including Egypt, Lebanon and Oman. I was the lead front-end engineer for implementing new features and upgrading existing code that was built on a custom PHP framework. **I also headed the front end for implementing the new initiative for rolling out paid ad subscription services for the first time for OLX MENA users, to boost their ad reach.**
 
 In my most recent role I was contracted by **OMNIA** to work as a front-end consultant with multiple teams and vendors for the **Abu Dhabi Digital Authority(ADDA) in the TAMM project**; a single stop for all government services and journeys for users all over Abu Dhabi. It was here where I had the opportunity to work with large scale teams as a front-end developer to create custom modular components to be integrated in several government Sitecore entity websites with independent themes.
-
-Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Charles Deluvio</u></a> on Unsplash
