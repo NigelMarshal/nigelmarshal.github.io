@@ -12,7 +12,7 @@ import {
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Nigel Marshal - Frontend Engineer" />
+      <Seo title="Nigel Marshal | Front-end Engineer" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Me" />
