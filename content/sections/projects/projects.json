@@ -2,46 +2,190 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Starter Project",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "",
+      "title": "React Expense Tracker",
+      "description": "Powered by CRA, I created a React Expense Tracker where the user can log in their expenses, as well as filter by year and view their total expenses in a bar chart.",
+      "tags": ["React", "CRA"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup"
+        "src": "../../images/expense-tracker.png",
+        "alt": "Expense Tracker"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/"
+          "url": "https://github.com/NigelMarshal/react-expense-tracker"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://nm-expense-tracker.netlify.app/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "Starter portfolio",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "",
+      "title": "Jungle CommerceJS",
+      "description": "Using Commerce.js and React, I created a mini webshop SPA where I could add products through the Commerce JS dashboard and used React Hook Forms for the customer data handling. This was built using Material UI, react-router and Stripe for the payment process.",
+      "tags": [
+        "React",
+        "CommerceJS",
+        "React Hook Forms",
+        "Material UI",
+        "React Router",
+        "Stripe"
+      ],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/jungle-commerce-js.jpg",
+        "alt": "Jungle CommerceJS"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/"
+          "url": "https://github.com/NigelMarshal/jungle-commerce-js"
+        },
+        {
+          "type": "external",
+          "url": "https://junglecommercejs.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Rick and Morty Randomizer",
+      "description": "Built with Vite, I created an SPA which hooks into the Rick and Morty API to display randomly generated characters and their info from the show. I wrote this in Typescript and React whilst styling it with Tailwind.",
+      "tags": ["React", "Vite", "Typescript", "Tailwind"],
+      "image": {
+        "src": "../../images/r-m-r.png",
+        "alt": "Rick and Morty Randomizer App"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/rick-and-morty-randomizer"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-rick-and-morty-randomizer.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Food Ordering App UI",
+      "description": " I created a React SPA, connecting to an API to emulate a food ordering application. The front-end displays dishes mapped to their respective categories and the selections (cart) persists through local storage. The dishes conditionally render depending on inventory count from the API as well as display available discounted prices. This was built with React and Tailwind.",
+      "tags": ["React", "Tailwind", "Custom Hooks", "Local Storage"],
+      "image": {
+        "src": "../../images/cf-food-ordering-app.jpg",
+        "alt": "Food Ordering App"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/react-fooddelivery-app"
+        },
+        {
+          "type": "external",
+          "url": "https://cf-order.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Face Recognition React Application",
+      "description": "For this project, I connected to the Clarifai API to create a SPA using React.js. The app allows you to upload a photo with a face and the API will detect it using a bounding box. A user can sign in/register to keep track of how many photos they have scanned. I also created a database and server using Node.js, Express.js, bcrypt and PostgressSQL. The files were then deployed using Heroku.",
+      "tags": [
+        "React",
+        "Clarifai",
+        "NodeJS",
+        "ExpressJS",
+        "bcrypt",
+        "PostgressSQL"
+      ],
+      "image": {
+        "src": "../../images/face-recog.jpg",
+        "alt": "Face Recognition App"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/face-recognition"
+        },
+        {
+          "type": "external",
+          "url": "https://face-recognition-nm.herokuapp.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "React Image Gallery",
+      "description": "Powered by React and styled with Tailwind, I built a searchable image gallery app using the Pixabay API.",
+      "tags": ["React", "Tailwind", "Pixabay"],
+      "image": {
+        "src": "../../images/react-image-gallery.png",
+        "alt": "React Image Gallery"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/react-tailwind-image-gallery"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-react-image-gallery.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "RoboFriends",
+      "description": "Powered by React and styled with Tachyons, I built a searchable image gallery app using the RoboHash API.",
+      "tags": ["React", "RoboHash", "Tachyons"],
+      "image": {
+        "src": "../../images/robo-friends.png",
+        "alt": "Robo Friends"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/searchforrobofriends"
+        },
+        {
+          "type": "external",
+          "url": "https://nigelmarshal.github.io/searchforrobofriends/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "iOS HTML Alarm Screens",
+      "description": "I created a small web app following the iOS alarm screen flows. I used local storage to store the alarm values and ion.RangeSlider to manipulate the time values for setting the alarms",
+      "tags": ["ion.RangeSlider", "Jquery"],
+      "image": {
+        "src": "../../images/ios-alarm.png",
+        "alt": "ios Alarm Screens"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/iosalarm"
+        },
+        {
+          "type": "external",
+          "url": "https://nigelmarshal.github.io/iosalarm/app/index.html"
         }
       ]
     }
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/"
+    "label": "More of my GitHub projects",
+    "url": "https://github.com/NigelMarshal/"
   }
 }

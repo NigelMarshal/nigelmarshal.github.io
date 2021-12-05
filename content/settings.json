@@ -28,11 +28,9 @@
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "/Nigel-Marshal-Resume.pdf"
       },
-      "footer": [
-        { "label": "^ Back to top", "url": "/#about" }
-      ]
+      "footer": [{ "label": "^ Back to top", "url": "/#about" }]
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
