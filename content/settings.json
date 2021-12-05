@@ -21,7 +21,7 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
+        { "label": "Skills", "url": "/#skills" },
         { "label": "Experience", "url": "/#features" },
         { "label": "Contact", "url": "/#github" }
       ],
@@ -31,8 +31,7 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "^ Back to top", "url": "/#about" }
       ]
     },
     "featureToggles": {
