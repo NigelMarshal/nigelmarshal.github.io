@@ -1,0 +1,107 @@
+{
+  "interests": [
+    {
+      "label": "React",
+      "image": {
+        "src": "../../images/react.png",
+        "alt": "React"
+      }
+    },
+    {
+      "label": "HTML5",
+      "image": {
+        "src": "../../images/html5.png",
+        "alt": "HTML5"
+      }
+    },
+    {
+      "label": "CSS3",
+      "image": {
+        "src": "../../images/css3.png",
+        "alt": "CSS3"
+      }
+    },
+    {
+      "label": "SASS",
+      "image": {
+        "src": "../../images/sass.png",
+        "alt": "SASS"
+      }
+    },
+    {
+      "label": "ES6/ES7 Javascript",
+      "image": {
+        "src": "../../images/js.png",
+        "alt": "ECMAScript"
+      }
+    },
+    {
+      "label": "Gatsby",
+      "image": {
+        "src": "../../images/gatsby.png",
+        "alt": "Gatsby"
+      }
+    },
+    {
+      "label": "Tailwind",
+      "image": {
+        "src": "../../images/tailwind.png",
+        "alt": "Tailwind"
+      }
+    },
+    {
+      "label": "Bootstrap",
+      "image": {
+        "src": "../../images/bootstrap.png",
+        "alt": "Bootstrap"
+      }
+    },
+    {
+      "label": "PHP",
+      "image": {
+        "src": "../../images/php.png",
+        "alt": "PHP"
+      }
+    },
+    {
+      "label": "git",
+      "image": {
+        "src": "../../images/git.png",
+        "alt": "git"
+      }
+    },
+    {
+      "label": "Sketch",
+      "image": {
+        "src": "../../images/sketch.png",
+        "alt": "Sketch"
+      }
+    },
+    {
+      "label": "JIRA",
+      "image": {
+        "src": "../../images/jira.png",
+        "alt": "JIRA"
+      }
+    },
+    {
+      "label": "Trello",
+      "image": {
+        "src": "../../images/trello.png",
+        "alt": "Trello"
+      }
+    },
+    {
+      "label": "Google Analytics",
+      "image": {
+        "src": "../../images/google-analytics.png",
+        "alt": "Google Analytics"
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 6
+  }
+}

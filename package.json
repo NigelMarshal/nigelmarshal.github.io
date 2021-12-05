@@ -1,46 +1,39 @@
 {
-  "title": "Nigel Marshal",
-  "name": "nigel-marshal-portfolio",
-  "version": "3.0.1",
+  "name": "Nigel-Marshal-Frontend-Portfolio",
+  "version": "4.0.0",
+  "description": "A modern revamp of my portfolio, built with Gatsby",
   "scripts": {
-    "start": "gulp watch"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
-  "description": "Updated version of my work portfolio using Bootstap 4",
-  "keywords": [
-    "frontend",
-    "engineer",
-    "developer",
-    "hire-me-please"
-  ],
-  "homepage": "https://github.com/NigelMarshal/nigelmarshal.github.io#readme",
-  "bugs": {
-    "url": "https://github.com/NigelMarshal/nigelmarshal.github.io/issues"
-  },
-  "license": "MIT",
-  "author": "Nigel Marshal",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NigelMarshal/nigelmarshal.github.io.git"
+  "engines": {
+    "node": ">=16.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.10.2",
-    "bootstrap": "4.3.1",
-    "jquery": "^3.6.0",
-    "jquery.easing": "^1.4.1"
+    "gatsby": "^4.0.2",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
+  "author": "Nigel Marshal <nigelmarshal@gmail.com>",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-minimal-theme",
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ],
   "devDependencies": {
-    "browser-sync": "^2.27.7",
-    "del": "5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "7.0.0",
-    "gulp-clean-css": "4.2.0",
-    "gulp-header": "2.0.9",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "1.4.0",
-    "gulp-sass": "^5.0.0",
-    "gulp-uglify": "3.0.2",
-    "merge-stream": "2.0.0",
-    "sass": "^1.43.4"
-  },
-  "main": "gulpfile.js"
+    "gh-pages": "^3.2.3"
+  }
 }

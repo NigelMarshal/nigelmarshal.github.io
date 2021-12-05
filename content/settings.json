@@ -1,0 +1,47 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://www.nigelmarshal.com/",
+    "title": "Nigel Marshal",
+    "titleTemplate": "%s · Portfolio Minimal",
+    "description": "Frontend Portfolio revamped with Gatsby",
+    "author": "Nigel Marshal",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "",
+    "social": {
+      "behance": "https://behance.com",
+      "github": "https://github.com/NigelMarshal",
+      "medium": "https://medium.com",
+      "linkedin": "https://www.linkedin.com/in/nigelmarshal/",
+      "mail": "mailto:nigelmarshal@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "NM" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Skills", "url": "/#skills" },
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Contact", "url": "/#contact" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Résumé / CV",
+        "url": "/Nigel-Marshal-Resume.pdf"
+      },
+      "footer": [
+        {
+          "label": "Site built with Gatsby",
+          "url": "https://www.gatsbyjs.com/"
+        },
+        { "label": "^ Back to top", "url": "/" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

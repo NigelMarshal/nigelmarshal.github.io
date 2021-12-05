@@ -1,0 +1,13 @@
+{
+  "name": "Nigel Marshal",
+  "email": "nigelmarshal@gmail.com",
+  "description": "",
+  "image": {
+    "src": "../../images/favicon.png",
+    "alt": "NM"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github"],
+    "showIcons": true
+  }
+}

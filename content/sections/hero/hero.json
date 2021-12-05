@@ -1,0 +1,18 @@
+{
+  "intro": "Hey there! I'm Nigel Marshal",
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "",
+  "subtitle": {
+    "prefix": "A ",
+    "highlight": "Front-end Engineer and meat popsicle",
+    "suffix": "."
+  },
+  "description": "Want to know more about me or connect with me? Keep scrolling!",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": false
+  }
+}
