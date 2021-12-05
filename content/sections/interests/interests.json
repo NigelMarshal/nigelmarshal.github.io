@@ -3,106 +3,99 @@
     {
       "label": "React",
       "image": {
-        "src": "../../images/joystick.png",
-        "alt": ""
+        "src": "../../images/react.png",
+        "alt": "React"
       }
     },
     {
       "label": "HTML5",
       "image": {
-        "src": "../../images/notebook.png",
-        "alt": ""
+        "src": "../../images/html5.png",
+        "alt": "HTML5"
       }
     },
     {
       "label": "CSS3",
       "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
+        "src": "../../images/css3.png",
+        "alt": "CSS3"
       }
     },
     {
       "label": "SASS",
       "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
+        "src": "../../images/sass.png",
+        "alt": "SASS"
       }
     },
     {
       "label": "ES6/ES7 Javascript",
       "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
+        "src": "../../images/js.png",
+        "alt": "ECMAScript"
       }
     },
     {
       "label": "Gatsby",
       "image": {
         "src": "../../images/gatsby.png",
-        "alt": ""
+        "alt": "Gatsby"
       }
     },
     {
       "label": "Tailwind",
       "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
+        "src": "../../images/tailwind.png",
+        "alt": "Tailwind"
       }
     },
     {
       "label": "Bootstrap",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/bootstrap.png",
+        "alt": "Bootstrap"
       }
     },
     {
       "label": "PHP",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/php.png",
+        "alt": "PHP"
       }
     },
     {
       "label": "git",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "npm",
-      "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "yarn",
-      "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/git.png",
+        "alt": "git"
       }
     },
     {
       "label": "Sketch",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/sketch.png",
+        "alt": "Sketch"
       }
     },
     {
       "label": "JIRA",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/jira.png",
+        "alt": "JIRA"
       }
     },
     {
       "label": "Trello",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/trello.png",
+        "alt": "Trello"
+      }
+    },
+    {
+      "label": "Google Analytics",
+      "image": {
+        "src": "../../images/google-analytics.png",
+        "alt": "Google Analytics"
       }
     }
   ],
