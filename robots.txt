@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.nigelmarshal.com/nigelmarshal.github.io/sitemap/sitemap-index.xml
+Sitemap: https://www.nigelmarshal.com/sitemap/sitemap-index.xml
 Host: https://www.nigelmarshal.com
