@@ -206,7 +206,7 @@
   ],
   "button": {
     "visible": true,
-    "label": "More of my GitHub projects",
+    "label": "View more on my GitHub",
     "url": "https://github.com/NigelMarshal/"
   }
 }
