@@ -52,6 +52,27 @@
     {
       "visible": true,
       "category": "",
+      "title": "Gatsby Recipe App",
+      "description": "Powered by Gatsby and Contentful, the recipe SPA allows users to view recipes either through tags or the dedicated list. Each recipe page details instructions, serving sizes and required cooking appliances for easy to cook recipes.",
+      "tags": ["Gatsby", "GraphQL", "Contentful", "SEO", "Image Optimization"],
+      "image": {
+        "src": "../../images/gatsby-recipe.jpg",
+        "alt": "Gatsby Recipe App"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/gatsby-recipes-app"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-gatsby-recipes.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
       "title": "Rick and Morty Randomizer",
       "description": "Built with Vite, I created an SPA which hooks into the Rick and Morty API to display randomly generated characters and their info from the show. I wrote this in Typescript and React whilst styling it with Tailwind.",
       "tags": ["React", "Vite", "Typescript", "Tailwind"],
