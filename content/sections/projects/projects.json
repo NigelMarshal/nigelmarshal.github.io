@@ -3,6 +3,30 @@
     {
       "visible": true,
       "category": "",
+      "title": "GitHub Trending Page Clone",
+      "description": "I built a clone of the GitHub trending page with React and Tailwind. The data is fetched using react query and axios, displayed on two pages set up using react router.",
+      "tags": [
+        "React",
+        "react select",
+        "react router",
+        "axios",
+        "react query",
+        "Tailwind"
+      ],
+      "image": {
+        "src": "../../images/gh-trending-clone.png",
+        "alt": "GitHub Trending Clone"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/github-trending-clone"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
       "title": "Jungle CommerceJS",
       "description": "Using Commerce.js and React, I created a mini webshop SPA where I could add products through the Commerce JS dashboard and used React Hook Forms for the customer data handling. This was built using Material UI, react-router and Stripe for the payment process.",
       "tags": [
