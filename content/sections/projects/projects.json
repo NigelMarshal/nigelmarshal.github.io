@@ -97,6 +97,27 @@
     {
       "visible": true,
       "category": "",
+      "title": "Star Wars Wiki Cards",
+      "description": "A React SPA using React Query to display paginated data from SWAPI",
+      "tags": ["React", "React Query", "API"],
+      "image": {
+        "src": "../../images/star-wars-wiki.jpg",
+        "alt": "Star Wars Wiki Cards"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/starwars-wiki-cards"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-sw-wiki-cards.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
       "title": "Rick and Morty Randomizer",
       "description": "Built with Vite, I created an SPA which hooks into the Rick and Morty API to display randomly generated characters and their info from the show. I wrote this in Typescript and React whilst styling it with Tailwind.",
       "tags": ["React", "Vite", "Typescript", "Tailwind"],
