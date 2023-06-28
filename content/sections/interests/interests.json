@@ -1,6 +1,20 @@
 {
   "interests": [
     {
+      "label": "Angular",
+      "image": {
+        "src": "../../images/angular.png",
+        "alt": "Angular"
+      }
+    },
+    {
+      "label": "TypeScript",
+      "image": {
+        "src": "../../images/typescript.png",
+        "alt": "TypeScript"
+      }
+    },
+    {
       "label": "React",
       "image": {
         "src": "../../images/react.png",
@@ -33,6 +47,13 @@
       "image": {
         "src": "../../images/js.png",
         "alt": "ECMAScript"
+      }
+    },
+    {
+      "label": "Playwright",
+      "image": {
+        "src": "../../images/playwright.png",
+        "alt": "Playwright"
       }
     },
     {
