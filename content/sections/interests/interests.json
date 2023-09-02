@@ -50,10 +50,24 @@
       }
     },
     {
+      "label": "RxJS",
+      "image": {
+        "src": "../../images/rxjs.png",
+        "alt": "RxJS"
+      }
+    },
+    {
       "label": "Playwright",
       "image": {
         "src": "../../images/playwright.png",
         "alt": "Playwright"
+      }
+    },
+    {
+      "label": "Cypress",
+      "image": {
+        "src": "../../images/cypress.png",
+        "alt": "Cypress"
       }
     },
     {
@@ -110,6 +124,13 @@
       "image": {
         "src": "../../images/trello.png",
         "alt": "Trello"
+      }
+    },
+    {
+      "label": "Shortcut",
+      "image": {
+        "src": "../../images/shortcut.png",
+        "alt": "Shortcut"
       }
     },
     {

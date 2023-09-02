@@ -14,12 +14,12 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "gatsby": "^4.0.2",
+    "gatsby": "^5.12.3",
     "gatsby-plugin-google-analytics": "^4.3.0",
-    "gatsby-theme-portfolio-minimal": "latest",
+    "gatsby-theme-portfolio-minimal": "*",
     "patch-package": "^6.4.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "author": "Nigel Marshal <nigelmarshal@gmail.com>",
   "license": "0BSD",
