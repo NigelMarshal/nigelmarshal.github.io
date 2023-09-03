@@ -6,6 +6,7 @@
     "postinstall": "npx patch-package",
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
@@ -15,11 +16,11 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
+    "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-theme-portfolio-minimal": "latest",
     "patch-package": "^6.4.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "gatsby-plugin-google-gtag": "^5.12.0"
+    "react-dom": "^18.2.0"
   },
   "author": "Nigel Marshal <nigelmarshal@gmail.com>",
   "license": "0BSD",
