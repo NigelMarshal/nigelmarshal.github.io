@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^5.12.3",
-    "gatsby-plugin-google-analytics": "^5.12.0",
+    "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-theme-portfolio-minimal": "*",
     "patch-package": "^6.4.7",
     "react": "^18.2.0",
