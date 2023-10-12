@@ -2,16 +2,48 @@
   "projects": [
     {
       "visible": true,
-      "category": "",
-      "title": "GitHub Trending Page Clone",
-      "description": "I built a clone of the GitHub trending page with React and Tailwind. The data is fetched using react query and axios, displayed on two pages set up using react router.",
+      "category": "Web Applications",
+      "title": "Tenant Dashboard Solution",
+      "description": "Designed a comprehensive tenant dashboard prototype to assist newcomers in the MENA property market. The dashboard provides an overview of rent payments, maintenance requests, and essential property documentation. Tenants also gain insights into regional news and can efficiently manage work order requests, receipt histories, and critical document storage. Integrated Auth0 for secure login and Ant Design for a scalable UI. The responsive design ensures a seamless experience across devices.",
+      "tags": [
+        "React",
+        "Ant Design",
+        "React Router",
+        "Auth0",
+        "Moment.js",
+        "Particle JS",
+        "Enterprise Level Apps",
+        "Web Applications"
+      ],
+      "image": {
+        "src": "../../images/tenant-proto.png",
+        "alt": "Tenant Dashboard Prototype"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/tenant-proto"
+        },
+        {
+          "type": "external",
+          "url": "https://nm-tenant-prototype.netlify.app"
+        }
+      ]
+    },    
+    {
+      "visible": true,
+      "category": "Web Applications",
+      "title": "GitHub Trending Page Replica",
+      "description": "Developed a replica of the GitHub trending page to understand the intricacies of popular repositories' display. Leveraged React for UI components, Tailwind for styling, and efficiently fetched data with react query and axios.",
       "tags": [
         "React",
         "react select",
         "react router",
         "axios",
         "react query",
-        "Tailwind"
+        "Tailwind",
+        "API Integration",
+        "Web Applications"
       ],
       "image": {
         "src": "../../images/gh-trending-clone.png",
@@ -26,16 +58,17 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Jungle CommerceJS",
-      "description": "Using Commerce.js and React, I created a mini webshop SPA where I could add products through the Commerce JS dashboard and used React Hook Forms for the customer data handling. This was built using Material UI, react-router and Stripe for the payment process.",
+      "category": "Web Applications",
+      "title": "Jungle E-commerce Webshop",
+      "description": "Built an interactive e-commerce SPA using Commerce.js and React. Seamlessly integrated Stripe for payments and used React Hook Forms for efficient customer data management. Styled using Material UI.",
       "tags": [
         "React",
         "CommerceJS",
         "React Hook Forms",
         "Material UI",
         "React Router",
-        "Stripe"
+        "Stripe Integration",
+        "E-commerce"
       ],
       "image": {
         "src": "../../images/jungle-commerce-js.jpg",
@@ -54,10 +87,10 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "React Expense Tracker",
-      "description": "Powered by CRA, I created a React Expense Tracker where the user can log in their expenses, as well as filter by year and view their total expenses in a bar chart.",
-      "tags": ["React", "CRA"],
+      "category": "Web Applications",
+      "title": "Intuitive Expense Tracker",
+      "description": "Crafted a user-friendly expense tracker in React. Users can seamlessly log expenses, filter by year, and visualize data through an intuitive bar chart. Achieved efficient initial rendering with CRA.",
+      "tags": ["React", "CRA", "Data Visualization", "Web Applications"],
       "image": {
         "src": "../../images/expense-tracker.png",
         "alt": "Expense Tracker"
@@ -75,10 +108,17 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Gatsby Recipe App",
-      "description": "Powered by Gatsby and Contentful, the recipe SPA allows users to view recipes either through tags or the dedicated list. Each recipe page details instructions, serving sizes and required cooking appliances for easy to cook recipes.",
-      "tags": ["Gatsby", "GraphQL", "Contentful", "SEO", "Image Optimization"],
+      "category": "Web Applications",
+      "title": "Gourmet Recipe Viewer",
+      "description": "Designed an elegant recipe viewer with Gatsby and Contentful. Users can effortlessly explore recipes through tags or a dedicated list. Each recipe page offers detailed instructions, serving sizes, and necessary cooking appliances.",
+      "tags": [
+        "Gatsby",
+        "GraphQL",
+        "Contentful",
+        "SEO",
+        "Image Optimization",
+        "Web Applications"
+      ],
       "image": {
         "src": "../../images/gatsby-recipe.jpg",
         "alt": "Gatsby Recipe App"
@@ -96,10 +136,10 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Rick and Morty Randomizer",
-      "description": "Built with Vite, I created an SPA which hooks into the Rick and Morty API to display randomly generated characters and their info from the show. I wrote this in Typescript and React whilst styling it with Tailwind.",
-      "tags": ["React", "Vite", "Typescript", "Tailwind"],
+      "category": "Entertainment Apps",
+      "title": "Rick and Morty Character Showcase",
+      "description": "Crafted a fun SPA with Vite, giving fans of the show a chance to discover random characters and their backstories. Developed using Typescript and React and brought to life with Tailwind styling.",
+      "tags": ["React", "Vite", "Typescript", "Entertainment"],
       "image": {
         "src": "../../images/r-m-r.png",
         "alt": "Rick and Morty Randomizer App"
@@ -117,10 +157,10 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Food Ordering App UI",
-      "description": " I created a React SPA, connecting to an API to emulate a food ordering application. The front-end displays dishes mapped to their respective categories and the selections (cart) persists through local storage. The dishes conditionally render depending on inventory count from the API as well as display available discounted prices. This was built with React and Tailwind.",
-      "tags": ["React", "Tailwind", "Custom Hooks", "Local Storage"],
+      "category": "E-commerce",
+      "title": "Dynamic Food Ordering Interface",
+      "description": "Developed a dynamic food ordering SPA. Showcased dishes from an API based on inventory and discounts. Enhanced user experience by preserving cart data using local storage. Styled with React and Tailwind.",
+      "tags": ["React", "E-commerce", "API Integration", "Web Applications"],
       "image": {
         "src": "../../images/cf-food-ordering-app.jpg",
         "alt": "Food Ordering App"
@@ -138,9 +178,9 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Face Recognition React Application",
-      "description": "For this project, I connected to the Clarifai API to create a SPA using React.js. The app allows you to upload a photo with a face and the API will detect it using a bounding box. A user can sign in/register to keep track of how many photos they have scanned. I also created a database and server using Node.js, Express.js, bcrypt and PostgressSQL. The files were then deployed using Heroku.",
+      "category": "Web Applications",
+      "title": "Facial Recognition Interface",
+      "description": "Incorporated Clarifai API into a SPA to detect faces in uploaded images. Users can register and track their photo scan count. Backed by a robust server infrastructure using Node.js, Express.js, and PostgressSQL.",
       "tags": [
         "React",
         "Clarifai",
@@ -166,9 +206,9 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "React Image Gallery",
-      "description": "Powered by React and styled with Tailwind, I built a searchable image gallery app using the Pixabay API.",
+      "category": "Image Galleries",
+      "title": "Elegant Image Gallery",
+      "description": "Merged React's efficiency with Tailwind's styling to build a stunning image gallery. Users can search and view images sourced from the Pixabay API.",
       "tags": ["React", "Tailwind", "Pixabay"],
       "image": {
         "src": "../../images/react-image-gallery.png",
@@ -187,9 +227,9 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "RoboFriends",
-      "description": "Powered by React and styled with Tachyons, I built a searchable image gallery app using the RoboHash API.",
+      "category": "Image Galleries",
+      "title": "RoboFriends: A Robot Showcase",
+      "description": "Constructed a visual treat for users by showcasing robot images from the RoboHash API. Utilized React for component design and styled with Tachyons.",
       "tags": ["React", "RoboHash", "Tachyons"],
       "image": {
         "src": "../../images/robo-friends.png",
@@ -208,9 +248,9 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "iOS HTML Alarm Screens",
-      "description": "I created a small web app following the iOS alarm screen flows. I used local storage to store the alarm values and ion.RangeSlider to manipulate the time values for setting the alarms",
+      "category": "Web Applications",
+      "title": "iOS-inspired Alarm Interface",
+      "description": "Emulated iOS alarm screen flows in a web environment. Persisted user-set alarm values through local storage and integrated ion.RangeSlider for time manipulation.",
       "tags": ["ion.RangeSlider", "Jquery"],
       "image": {
         "src": "../../images/ios-alarm.png",
@@ -229,9 +269,9 @@
     },
     {
       "visible": true,
-      "category": "",
-      "title": "Travel Site Landing Page",
-      "description": "For this project I decided to go with a more classic approach and avoided using common JS frameworks. It is a fully response and optimized site created from scratch using Node.js, ES6 JS, webpack and gulp",
+      "category": "Landing Pages",
+      "title": "Travel Enthusiast Landing Page",
+      "description": "Designed a fully responsive travel-themed landing page. Developed from scratch, incorporating modern web technologies like Node.js, ES6 JS, webpack, and gulp for an optimized user experience.",
       "tags": ["HTML5", "CSS3", "NodeJS", "webpack", "gulp"],
       "image": {
         "src": "../../images/travel-site.png",
