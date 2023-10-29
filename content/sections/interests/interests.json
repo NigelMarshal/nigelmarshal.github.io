@@ -57,6 +57,13 @@
       }
     },
     {
+      "label": "GraphQL",
+      "image": {
+        "src": "../../images/GraphQL.png",
+        "alt": "GraphQL"
+      }
+    },
+    {
       "label": "Playwright",
       "image": {
         "src": "../../images/playwright.png",

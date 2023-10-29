@@ -3,6 +3,45 @@
     {
       "visible": true,
       "category": "Web Applications",
+      "title": "Ajar PropTech Platform Overhaul and Enhancement",
+      "description": "At Ajar, a pioneering PropTech firm in the Middle East, I took the helm of front-end development to institute major platform overhauls and innovatively integrate new features. I completely reconstructed the landing pages using Angular and Bootstrap, which directly translated into a 30% uptick in user engagement. I optimized the login and sign-up processes, added robust features like expense management and report downloading, and revamped the leases management system. Furthermore, I championed the migration from Firebase APIs to REST APIs, improving backend data handling and overall platform responsiveness. As a testament to my adaptability, I seamlessly transitioned from React to Angular within a tight two-month window. In collaboration with marketing initiatives, I drove the implementation of Facebook and Snapchat tracking pixels, culminating in a notable 20% increase in high-value clients. By incorporating automated test cases using Playwright with GitHub workflows, I advanced the deployment process, ensuring faster release cycles, a heightened code quality, and a 35% reduction in bug resolution time. Throughout, I maintained the brand's graphic consistency and high-quality standards, further elevating the platform's user experience.",
+      "tags": [
+        "Angular",
+        "Tailwind",
+        "Bootstrap",
+        "i18n",
+        "Transifex",
+        "Playwright",
+        "GitHub Workflows",
+        "REST APIs",
+        "Expense Tracking",
+        "Localization",
+        "Multilingual Deployment",
+        "Web Applications",
+        "Enterprise Level Apps",
+        "User Engagement",
+        "Performance Optimization",
+        "Firebase Migration",
+        "Marketing Integration",
+        "Brand Consistency",
+        "Sentry Error Handling",
+        "Pagination and Filtering",
+        "Mobile Responsiveness"
+      ],
+      "image": {
+        "src": "../../images/ajar.png",
+        "alt": "Ajar"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://joinajar.com/landlord"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Web Applications",
       "title": "Tenant Dashboard Solution",
       "description": "Designed a comprehensive tenant dashboard prototype to assist newcomers in the MENA property market. The dashboard provides an overview of rent payments, maintenance requests, and essential property documentation. Tenants also gain insights into regional news and can efficiently manage work order requests, receipt histories, and critical document storage. Integrated Auth0 for secure login and Ant Design for a scalable UI. The responsive design ensures a seamless experience across devices.",
       "tags": [
@@ -29,7 +68,7 @@
           "url": "https://nm-tenant-prototype.netlify.app"
         }
       ]
-    },    
+    },
     {
       "visible": true,
       "category": "Web Applications",
