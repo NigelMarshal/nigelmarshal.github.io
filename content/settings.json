@@ -25,11 +25,7 @@
         { "label": "Projects", "url": "/#projects" },
         { "label": "Contact", "url": "/#contact" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Résumé / CV",
-        "url": "/Nigel-Marshal-Resume.pdf"
-      },
+
       "footer": [{ "label": "^ Back to top", "url": "/" }]
     },
     "featureToggles": {

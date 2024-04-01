@@ -11,6 +11,6 @@ Most recently, I've been working at **Ajar**, where I've continued to deepen my 
 
 Between these roles, I took a year to freelance, aiding small businesses in digital transformation. This endeavor sharpened my web development and content writing skills, keeping me synced with the evolving tech industry.
 
-Armed with expertise in **React, Angular, HTML5, RxJS, CSS3, ES6 JavaScript** and more, I've also managed projects and led QA and User testing phases. My diverse experiences, from working with multicultural teams to handling diverse tech stacks, have shaped me into a versatile and adaptive professional.
+Armed with expertise in **React, Angular, RxJS, HTML5, CSS3, ES6 JavaScript** and more, I've also managed projects and led QA and User testing phases. My diverse experiences, from working with multicultural teams to handling diverse tech stacks, have shaped me into a versatile and adaptive professional.
 
 I'm fueled by continuous learning, always eager to assimilate emerging skills and technologies.

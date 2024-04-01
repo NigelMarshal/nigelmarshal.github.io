@@ -8,17 +8,17 @@
       }
     },
     {
-      "label": "TypeScript",
-      "image": {
-        "src": "../../images/typescript.png",
-        "alt": "TypeScript"
-      }
-    },
-    {
       "label": "React",
       "image": {
         "src": "../../images/react.png",
         "alt": "React"
+      }
+    },
+    {
+      "label": "TypeScript",
+      "image": {
+        "src": "../../images/typescript.png",
+        "alt": "TypeScript"
       }
     },
     {

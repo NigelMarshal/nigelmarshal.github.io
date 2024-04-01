@@ -266,48 +266,6 @@
     },
     {
       "visible": true,
-      "category": "Image Galleries",
-      "title": "RoboFriends: A Robot Showcase",
-      "description": "Constructed a visual treat for users by showcasing robot images from the RoboHash API. Utilized React for component design and styled with Tachyons.",
-      "tags": ["React", "RoboHash", "Tachyons"],
-      "image": {
-        "src": "../../images/robo-friends.png",
-        "alt": "Robo Friends"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/NigelMarshal/searchforrobofriends"
-        },
-        {
-          "type": "external",
-          "url": "https://nigelmarshal.github.io/searchforrobofriends/"
-        }
-      ]
-    },
-    {
-      "visible": true,
-      "category": "Web Applications",
-      "title": "iOS-inspired Alarm Interface",
-      "description": "Emulated iOS alarm screen flows in a web environment. Persisted user-set alarm values through local storage and integrated ion.RangeSlider for time manipulation.",
-      "tags": ["ion.RangeSlider", "Jquery"],
-      "image": {
-        "src": "../../images/ios-alarm.png",
-        "alt": "ios Alarm Screens"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/NigelMarshal/iosalarm"
-        },
-        {
-          "type": "external",
-          "url": "https://nigelmarshal.github.io/iosalarm/app/index.html"
-        }
-      ]
-    },
-    {
-      "visible": true,
       "category": "Landing Pages",
       "title": "Travel Enthusiast Landing Page",
       "description": "Designed a fully responsive travel-themed landing page. Developed from scratch, incorporating modern web technologies like Node.js, ES6 JS, webpack, and gulp for an optimized user experience.",
