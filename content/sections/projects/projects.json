@@ -41,6 +41,35 @@
     },
     {
       "visible": true,
+      "category": "Interactive Web Experiences",
+      "title": "Interactive Product page with GSAP and Three.js",
+      "description": "This project was an in-depth journey into creating highly interactive and visually appealing web experiences using GSAP (GreenSock Animation Platform) for animations and Three.js for 3D modeling. Key features: Implementing complex animations with GSAP, integrating 3D models seamlessly into web pages, setting up Sentry for error logging and mastering the art of crafting engaging UI sections such as products, hero sections, highlights, video carousels, and more!",
+      "tags": [
+        "GSAP",
+        "Three.js",
+        "Web Animation",
+        "3D Modeling",
+        "Interactive Design",
+        "Project Deployment",
+        "UI/UX Design",
+        "Web Development",
+        "Video Carousel",
+        "Performance Optimization",
+        "Sentry Performance Monitoring"
+      ],
+      "image": {
+        "src": "../../images/3d-showcase.png",
+        "alt": "Interactive Web Experience with GSAP and 3D Modeling"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://nm-3d-showcase.netlify.app/"
+        }
+      ]
+    },    
+    {
+      "visible": true,
       "category": "Web Applications",
       "title": "Tenant Dashboard Solution",
       "description": "Designed a comprehensive tenant dashboard prototype to assist newcomers in the MENA property market. The dashboard provides an overview of rent payments, maintenance requests, and essential property documentation. Tenants also gain insights into regional news and can efficiently manage work order requests, receipt histories, and critical document storage. Integrated Auth0 for secure login and Ant Design for a scalable UI. The responsive design ensures a seamless experience across devices.",
