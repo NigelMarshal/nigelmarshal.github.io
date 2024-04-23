@@ -2,6 +2,92 @@
   "projects": [
     {
       "visible": true,
+      "category": "AI Chatbots",
+      "title": "NextAI Chatbot",
+      "description": "A Chatbot combining the robustness of Next.js, the intelligence of OpenAI, and the aesthetics of Tailwind CSS, all deployed via Vercel. Designed to deliver a conversational experience that's smooth, natural, and engaging, it utilizes OpenAI's language models to understand context and generate replies, providing users with a taste of the future of human-computer interaction.",
+      "tags": [
+        "Next.js",
+        "OpenAI",
+        "Vercel",
+        "Tailwind CSS",
+        "AI",
+        "Natural Language Processing",
+        "Server-Side Rendering",
+        "Responsive Design",
+        "Chatbot"
+      ],
+      "image": {
+        "src": "../../images/chatbot.png",
+        "alt": "Next Chatbot Interface"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/next-chat-bot"
+        }
+      ]
+    }, 
+    {
+      "visible": true,
+      "category": "Chrome Extensions",
+      "title": "Meowify - Chrome Extension",
+      "description": "Meowify is a whimsical Chrome extension that transforms the text of any webpage into 'meow,' mimicking the language of cats. This project was designed to provide a humorous and engaging way to interact with web content, instantly altering text upon a single click. Key features include toggling between original text and 'meowified' text, ensuring a reversible, fun browsing experience. The extension employs minimal permissions to enhance user security and was developed using modern web technologies, including HTML, CSS, and JavaScript.",
+      "tags": [
+        "JavaScript",
+        "Chrome Extension",
+        "User Interface",
+        "Web Development",
+        "ActiveTab Permission",
+        "Scripting",
+        "Web Content Manipulation",
+        "Privacy Focused"
+      ],
+      "image": {
+        "src": "../../images/meowify.png",
+        "alt": "Meowify Chrome Extension"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/meowify"
+        },
+        {
+          "type": "external",
+          "url": "https://chromewebstore.google.com/detail/meowify/pafcljcamickajmfhgadcfflnennonop"
+        }
+      ]
+    },    
+    {
+      "visible": true,
+      "category": "Interactive Web Experiences",
+      "title": "Interactive Product page with GSAP and Three.js",
+      "description": "This project was an in-depth journey into creating highly interactive and visually appealing web experiences using GSAP (GreenSock Animation Platform) for animations and Three.js for 3D modeling. Key features: Implementing complex animations with GSAP, integrating 3D models seamlessly into web pages, setting up Sentry for error logging and mastering the art of crafting engaging UI sections such as products, hero sections, highlights, video carousels, and more!",
+      "tags": [
+        "GSAP",
+        "Three.js",
+        "Web Animation",
+        "3D Modeling",
+        "Interactive Design",
+        "Project Deployment",
+        "UI/UX Design",
+        "Web Development",
+        "Video Carousel",
+        "Performance Optimization",
+        "Sentry Performance Monitoring"
+      ],
+      "image": {
+        "src": "../../images/3d-showcase.png",
+        "alt": "Interactive Web Experience with GSAP and 3D Modeling"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://nm-3d-showcase.netlify.app/"
+        }
+      ]
+    },    
+    {
+      "visible": true,
       "category": "Web Applications",
       "title": "Ajar PropTech Platform Overhaul and Enhancement",
       "description": "At Ajar, a pioneering PropTech firm in the Middle East, I took the helm of front-end development to institute major platform overhauls and innovatively integrate new features. I completely reconstructed the landing pages using Angular and Bootstrap, which directly translated into a 30% uptick in user engagement. I optimized the login and sign-up processes, added robust features like expense management and report downloading, and revamped the leases management system. Furthermore, I championed the migration from Firebase APIs to REST APIs, improving backend data handling and overall platform responsiveness. As a testament to my adaptability, I seamlessly transitioned from React to Angular within a tight two-month window. In collaboration with marketing initiatives, I drove the implementation of Facebook and Snapchat tracking pixels, culminating in a notable 20% increase in high-value clients. By incorporating automated test cases using Playwright with GitHub workflows, I advanced the deployment process, ensuring faster release cycles, a heightened code quality, and a 35% reduction in bug resolution time. Throughout, I maintained the brand's graphic consistency and high-quality standards, further elevating the platform's user experience.",
@@ -39,35 +125,6 @@
         }
       ]
     },
-    {
-      "visible": true,
-      "category": "Interactive Web Experiences",
-      "title": "Interactive Product page with GSAP and Three.js",
-      "description": "This project was an in-depth journey into creating highly interactive and visually appealing web experiences using GSAP (GreenSock Animation Platform) for animations and Three.js for 3D modeling. Key features: Implementing complex animations with GSAP, integrating 3D models seamlessly into web pages, setting up Sentry for error logging and mastering the art of crafting engaging UI sections such as products, hero sections, highlights, video carousels, and more!",
-      "tags": [
-        "GSAP",
-        "Three.js",
-        "Web Animation",
-        "3D Modeling",
-        "Interactive Design",
-        "Project Deployment",
-        "UI/UX Design",
-        "Web Development",
-        "Video Carousel",
-        "Performance Optimization",
-        "Sentry Performance Monitoring"
-      ],
-      "image": {
-        "src": "../../images/3d-showcase.png",
-        "alt": "Interactive Web Experience with GSAP and 3D Modeling"
-      },
-      "links": [
-        {
-          "type": "external",
-          "url": "https://nm-3d-showcase.netlify.app/"
-        }
-      ]
-    },    
     {
       "visible": true,
       "category": "Web Applications",
