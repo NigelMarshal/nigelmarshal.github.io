@@ -6,13 +6,13 @@
   },
   "title": "",
   "subtitle": {
-    "prefix": "A ",
-    "highlight": "Front-end Engineer and meat popsicle",
+    "prefix": "",
+    "highlight": "Turning abstract ideas into interactive realities",
     "suffix": "."
   },
-  "description": "Welcome to my portfolio (Powered by Gatsby!)",
+  "description": "Welcome to my portfolio site, crafted with Gatsby!",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
-    "showIcons": false
+    "showIcons": true
   }
 }
