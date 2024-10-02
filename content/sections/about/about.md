@@ -3,7 +3,7 @@ imageSrc: "../../images/profile.jpg"
 imageAlt: "About Gatsby Theme Portfolio Minimal"
 ---
 
-I am a **Software Engineer with over 8 years of experience**, specializing in **front-end development and user experience (UX)**. I graduated with distinction from Heriot-Watt University in Dubai, obtaining a **Bachelor of Science** in **Computer Systems**.
+I am a **Software Engineer with over 9 years of experience**, specializing in **front-end development and user experience (UX)**. I graduated with distinction from Heriot-Watt University in Dubai, obtaining a **Bachelor of Science** in **Computer Systems**.
 
 My journey began in the realm of **UX** at **rbbi**, a leading UX agency in the MENA region. From there, I expanded my horizons, joining **dubizzle** under the **OLX group**, where I became the pivotal and sole front-end support for the OLX MENA region. My role spanned across eight major MENA countries, and I'm particularly proud of leading the rollout of paid ad subscription services, amplifying ad reach for OLX MENA users and generating passive company revenue.
 
