@@ -3,9 +3,9 @@ imageSrc: "../../images/profile.jpg"
 imageAlt: "About Gatsby Theme Portfolio Minimal"
 ---
 
-I am a **Software Engineer with over 9 years of experience**, specializing in **front-end development and user experience (UX)**. I graduated with distinction from Heriot-Watt University in Dubai, obtaining a **Bachelor of Science** in **Computer Systems**.
+I am a **Software Engineer with over 9 years of experience**, specializing in **frontend development and user experience (UX)**. I graduated with distinction from Heriot-Watt University in Dubai, obtaining a **Bachelor of Science** in **Computer Systems**.
 
-My journey began in the realm of **UX** at **rbbi**, a leading UX agency in the MENA region. From there, I expanded my horizons, joining **dubizzle** under the **OLX group**, where I became the pivotal and sole front-end support for the OLX MENA region. My role spanned across eight major MENA countries, and I'm particularly proud of leading the rollout of paid ad subscription services, amplifying ad reach for OLX MENA users and generating passive company revenue.
+My journey began in the realm of **UX** at **rbbi**, a leading UX agency in the MENA region. From there, I expanded my horizons, joining **dubizzle** under the **OLX group**, where I became the pivotal and sole frontend support for the OLX MENA region. My role spanned across eight major MENA countries, and I'm particularly proud of leading the rollout of paid ad subscription services, amplifying ad reach for OLX MENA users and generating passive company revenue.
 
 Most recently, I've been working at **Ajar** a cloud-based property management and rent collection fin-tech startup platform (Raised $7.5 million through it's pre-series A round), where I've continued to deepen my expertise in **Angular** and **React**. This has led to significant increases in user engagement and platform efficiency and helped in acquiring high-value clients. In my time at Ajar, I have reworked over 80% of the entire platform, developing new user flows, reworking existing features, code migrations and integrating new features with service provider partners.
 
