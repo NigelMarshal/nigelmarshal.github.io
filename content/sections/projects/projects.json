@@ -2,6 +2,37 @@
   "projects": [
     {
       "visible": true,
+      "category": "Web Applications",
+      "title": "TripScript — Multilingual Trip Planner",
+      "description": "TripScript is a modern trip planner that lets users search places, add multi-stop routes and visualize them on an interactive map. It features debounced search via the Photon API, a stops list with coordinates and easy removal, a Leaflet-powered map and a route summary using Haversine distance. Built with the Next.js App Router, TypeScript and Tailwind, with i18n through next-intl and a mock mode powered by MSW for smooth local development.",
+      "tags": [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "Leaflet",
+        "React Leaflet",
+        "next-intl",
+        "i18n",
+        "MSW",
+        "Photon API",
+        "Haversine",
+        "App Router",
+        "Netlify"
+      ],
+      "image": {
+        "src": "../../images/tripscript.png",
+        "alt": "TripScript trip planning UI"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NigelMarshal/tripscript"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "AI Chatbots",
       "title": "NextAI Chatbot",
       "description": "A Chatbot combining the robustness of Next.js, the intelligence of OpenAI, and the aesthetics of Tailwind CSS, all deployed via Vercel. Designed to deliver a conversational experience that's smooth, natural, and engaging, it utilizes OpenAI's language models to understand context and generate replies, providing users with a taste of the future of human-computer interaction.",
